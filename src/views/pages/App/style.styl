@@ -1,0 +1,36 @@
+.container {
+    margin: 0 auto;
+    width: 835px;
+}
+
+@media screen and (max-width: 935px) {
+  .container {
+        width: calc(100% - 24px);
+    }
+}
+
+.course_list {
+    max-width: 935px;
+}
+
+.course_list_element {
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    padding: 0px 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    background: rgba(205, 205, 205, 0.226);
+    color: white;
+    text-decoration: none;
+
+    transition-duration: 250ms;
+}
+
+.course_list_element:hover {
+    scale: 105%;
+}
